@@ -48,6 +48,7 @@ module.exports = {
 **config.js**
 
  1、不再支持search_options自定义，不能定义flexsearch的Options参数，如需修改请到SearchBox.vue里修改参数适配。
+
  2、去掉了maxSuggestions，一般全局搜索都展示所有的结果，不会限定搜索出来的结果。
 
 **index.js**
@@ -57,6 +58,7 @@ module.exports = {
 **SearchBox.vue**
 
 1、适配中英文搜索，依据搜索的关键词（query）判断是中文还是英文进行匹配FlexSearch实例。
+
 2、修改呈现样式，增加滚动条。
 
 ## 呈现效果
@@ -64,4 +66,4 @@ module.exports = {
 
 ## 感谢
 
-Thanks to [nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch) & [vuepress-plugin-flexsearch](https://github.com/z3by/vuepress-plugin-flexsearch.git)
+Thanks to [nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch) and [vuepress-plugin-flexsearch](https://github.com/z3by/vuepress-plugin-flexsearch.git)
