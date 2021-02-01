@@ -1,50 +1,11 @@
 {
-  "_from": "vuepress-plugin-flexsearch",
-  "_id": "vuepress-plugin-flexsearch@0.1.0",
-  "_inBundle": false,
-  "_integrity": "sha1-K4Ry3gtcCASwm7Rex/eJ+1K+qJU=",
-  "_location": "/vuepress-plugin-flexsearch",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "tag",
-    "registry": true,
-    "raw": "vuepress-plugin-flexsearch",
-    "name": "vuepress-plugin-flexsearch",
-    "escapedName": "vuepress-plugin-flexsearch",
-    "rawSpec": "",
-    "saveSpec": null,
-    "fetchSpec": "latest"
-  },
-  "_requiredBy": [
-    "#DEV:/",
-    "#USER"
-  ],
-  "_resolved": "https://registry.npm.taobao.org/vuepress-plugin-flexsearch/download/vuepress-plugin-flexsearch-0.1.0.tgz",
-  "_shasum": "2b8472de0b5c0804b09bb45ec7f789fb52bea895",
-  "_spec": "vuepress-plugin-flexsearch",
-  "_where": "F:\\vuepress\\HelpCenter",
-  "author": {
-    "name": "Ahmad Mostafa",
-    "email": "zoaby.am@gmail.com",
-    "url": "https://github.com/z3by"
-  },
-  "bugs": {
-    "url": "https://github.com/z3by/vuepress-plugin-flexsearch/issues"
-  },
-  "bundleDependencies": false,
   "dependencies": {
     "flexsearch": "^0.6.32"
   },
-  "deprecated": false,
-  "description": "Next-Generation full text search library for Vuepress",
-  "devDependencies": {
-    "conventional-changelog-cli": "2.0.31",
-    "he": "^1.2.0",
-    "vuepress": "^1.4.1"
-  },
-  "homepage": "https://github.com/z3by/vuepress-plugin-flexsearch#readme",
+  "description": "full text search",
+  "homepage": "https://github.com/QYueWang/vuepress-plugin-flexsearch-pro",
   "keywords": [
-    "vuepress-plugin-flexsearch",
+    "vuepress-plugin-flexsearch-pro",
     "vuepress-search",
     "search",
     "vuepress-plugin",
@@ -52,18 +13,17 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "name": "vuepress-plugin-flexsearch",
+  "name": "vuepress-plugin-flexsearch-pro",
+  "displayName": "flexsearch-pro",
   "publishConfig": {
     "access": "public"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/z3by/vuepress-plugin-flexsearch.git"
+    "url": "git+https://github.com/QYueWang/vuepress-plugin-flexsearch-pro.git"
   },
   "scripts": {
-    "build": "vuepress build example/docs",
-    "dev": "vuepress dev example/docs",
-    "prepublishOnly": "npm run build && conventional-changelog -p angular -r 2 -i CHANGELOG.md -s"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "0.1.0"
+  "version": "1.0.1"
 }
