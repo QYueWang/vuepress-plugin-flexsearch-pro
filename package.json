@@ -2,7 +2,7 @@
   "dependencies": {
     "flexsearch": "^0.6.32"
   },
-  "description": "full text search",
+  "description": "En/De/Cn/Ja/Ko languages full text search",
   "homepage": "https://github.com/QYueWang/vuepress-plugin-flexsearch-pro",
   "keywords": [
     "vuepress-plugin-flexsearch-pro",
