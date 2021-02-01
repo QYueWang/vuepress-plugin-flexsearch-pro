@@ -37,7 +37,7 @@ module.exports = {
         */
         searchPaths: ['path1', 'path2'],    // 搜索路径数组，为空表示搜索全部路径
         searchHotkeys: ['s'],    // 激活搜索控件的热键, 默认是 "s" ，也可以添加更多热键
-        searchResultLength: 60,    // 搜索结果展示的字符长度, 默认是60个字节.
+        searchResultLength: 60,    // 搜索结果展示的字符长度, 默认是60个字节
       }],
       // other plugins
     ]
@@ -57,7 +57,7 @@ module.exports = {
 **SearchBox.vue**
 
 1、适配中英文搜索，依据搜索的关键词（query）判断是中文还是英文进行匹配FlexSearch实例。
-2、修改呈现样式，增加滚动条
+2、修改呈现样式，增加滚动条。
 
 ## 呈现效果
 ![](./example/微信截图_20210201132754.png)
