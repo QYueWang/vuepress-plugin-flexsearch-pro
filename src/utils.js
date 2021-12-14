@@ -27,7 +27,7 @@ module.exports.getPageText = (page) => {
  */
 module.exports.highlightText = (fullText, highlightTarget) => {
   let result = fullText;
-  highlightWords = highlightTarget.split(" ").filter((word) => word.length > 0);
+  const highlightWords = highlightTarget.split(" ").filter((word) => word.length > 0);
   if (highlightWords.length > 0) {
     for (const word of highlightWords) {
       result = result.replace(new RegExp(word, "ig"), "<em>$&</em>");
