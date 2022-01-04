@@ -29,9 +29,9 @@
         @mousedown="go(i)"
         @mouseenter="focus(i)"
       >
-        <a :href="s.regularPath" @click.prevent>
+        <a :href="s.path" @click.prevent>
           <span
-            v-html="s.title || s.regularPath"
+            v-html="s.title || s.path"
             class="suggestion__title"
           ></span>
           <span v-html="s.text" class="suggestion__result"></span>
@@ -232,7 +232,7 @@ export default {
     },
 
     getSuggestionTitle(page) {
-      const title = page.title ? page.title : page.regularPath;
+      const title = page.title ? page.title : page.path;
       return highlightText(title, this.query);
     },
 
